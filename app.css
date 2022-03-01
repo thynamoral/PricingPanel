@@ -17,12 +17,6 @@ body {
 h2 {
     margin: 25px 0 35px;
 }
-#mainNav {
-    width: 100%;
-    position: fixed;
-    left: 0;
-    top: 0;
-}
 .panel {
     width: 100%;
     background-color: white;
@@ -91,6 +85,19 @@ h2 {
 }
 .is-featured:hover{
     background-color: #60a9ff;
+}
+
+#mainNav {
+    width: 100%;
+    position: fixed;
+    left: 0;
+    top: 0;
+}
+.navbar {
+    width: 100%;
+    position: fixed;
+    left: 0;
+    top: 0;
 }
 @media (min-width: 900px) {
     .panel {
